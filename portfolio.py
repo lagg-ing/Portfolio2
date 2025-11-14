@@ -9,7 +9,7 @@ with col1:
 
 with col2:
     st.header("A propos Moi")
-    st.text("Je m'appelle Aaron. J'ai 14 ans et je pense que tu es us singe")
+    st.text("Je m'appelle Aaron. J'ai 15 ans et je pense que tu es us singe")
     st.write("🐒🙈🙉🙊🐵🍌🍌🍌🍌🍌")
 
 
