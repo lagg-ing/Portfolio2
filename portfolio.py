@@ -35,7 +35,7 @@ if tabs == "About me":
     - 🏒 Hockey
     - 🔬 Science""")
 elif tabs == "My Games":
-    game_tabs = st.tabs(["Scuffed Asteroids", "2D Survival", "Demo Game"])
+    game_tabs = st.tabs(["Scuffed Asteroids", "2D Survival", "Demo Game", "3D Game Test"])
 
     # --- Skippy Game ---
     with game_tabs[0]:
@@ -54,4 +54,4 @@ elif tabs == "My Games":
         st.link_button("🔗 GitHub Repository", "https://github.com/lagg-ing/Demo-Game")
     with game_tabs[3]:
         st.subheader("3D Game Test")
-        st.components.v1.iframe("https://lagg-ing.github.io/3D-Game-Design-Test", height=600, width=960)
+        st.components.v1.iframe("https://lagg-ing.github.io/3D-Game-Design-Test",height=600,width=960)
