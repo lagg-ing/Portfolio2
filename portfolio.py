@@ -52,3 +52,6 @@ elif tabs == "My Games":
         st.subheader("Demo Game")
         st.components.v1.iframe("https://lagg-ing.github.io/Demo-Game",height=600,width=960)
         st.link_button("🔗 GitHub Repository", "https://github.com/lagg-ing/Demo-Game")
+    with game_tabs[3]:
+        st.subheader("3D Game Test")
+        st.components.v1.iframe("https://lagg-ing.github.io/3D-Game-Design-Test", height=600, width=960)
